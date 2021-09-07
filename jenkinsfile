@@ -1,9 +1,9 @@
 pipeline { 
     agent any  
     stages { 
-        stage('clean') { 
+        stage('Build') { 
             steps { 
-               echo 'Cleaning the project' 
+               echo 'This is a minimal pipeline.' 
             }
         }
     }
